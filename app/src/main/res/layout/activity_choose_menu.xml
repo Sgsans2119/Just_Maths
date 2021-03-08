@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DADADA"
+    tools:context=".MainActivity">>
+
+    <Button
+        android:id="@+id/multi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:background="#B7FF4800"
+        android:text="3. Multiplication (x)"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/mix"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/div"
+        android:layout_marginTop="30dp"
+        android:background="#B7FF4800"
+        android:text="5. All Mix( +, -, x, / )"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/div"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/multi"
+        android:layout_marginTop="30dp"
+        android:background="#B7FF4800"
+        android:text="4. Division ( / )"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/subs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/multi"
+        android:layout_marginBottom="30dp"
+        android:background="#B7FF4800"
+        android:text="2. Substraction (-)"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/subs"
+        android:layout_marginBottom="30dp"
+        android:background="#B7FF4800"
+        android:text="1.Addition (+)"
+        android:textSize="30sp" />
+</RelativeLayout>
